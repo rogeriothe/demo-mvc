@@ -71,16 +71,10 @@
 			<version>1.14.13</version>
 		</dependency>
 
-		<!-- Use MySQL Connector-J -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-
-		<!-- H2 Database -->
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>7.0.0.jre10</version>
 		</dependency>
 
 		<dependency>
