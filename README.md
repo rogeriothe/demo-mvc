@@ -11,3 +11,7 @@ https://medium.com/@gustavo.ponce.ch/spring-boot-spring-mvc-spring-security-mysq
 # Sql Server conection
 https://springframework.guru/configuring-spring-boot-for-microsoft-sql-server/
 https://youtu.be/FCnteIDNnwU
+
+
+# Flyway
+https://www.callicoder.com/spring-boot-flyway-database-migration-example/
