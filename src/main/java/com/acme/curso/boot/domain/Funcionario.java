@@ -18,18 +18,18 @@ import org.springframework.format.annotation.NumberFormat.Style;
 public class Funcionario extends AbstractEntity<Long> {
 	
 	
-	@NotBlank  /* Forma 1 => javax.validation*/
-	@Size(max = 255, min = 3) /*javax.validation*/
+	@NotBlank
+	@Size(max = 255, min = 3)
 	@Column(nullable = false, unique = true)
 	private String nome;
 	
-	@NotNull /*javax.validation*/
+	@NotNull
 	@NumberFormat(style = Style.CURRENCY, pattern = "#,##0.00")
 	@Column(nullable = false, columnDefinition = "DECIMAL(7,2) DEFAULT 0.00")
 	private BigDecimal salario;
 	
 	@NotNull
-	@PastOrPresent(message = "{PastOrPresent.funcionario.dataEntrada}") /* Forma 2 => PastOrPresent.funcionario.dataEntrada*/
+	@PastOrPresent(message = "{PastOrPresent.funcionario.dataEntrada}")
 	@DateTimeFormat(iso = ISO.DATE)
 	@Column(name= "data_entrada", nullable = false, columnDefinition = "DATE")
 	private LocalDate dataEntrada;
@@ -38,12 +38,12 @@ public class Funcionario extends AbstractEntity<Long> {
 	@Column(name = "data_saida", columnDefinition = "DATE")
 	private LocalDate dataSaida;
 	
-	@Valid /* deve ser validado pelas instruções da classe endereço*/
+	@Valid
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "endereco_id_fk")
 	private Endereco endereco;
 	
-	@NotNull(message = "{NotNull.funcionario.cargo}") /* NotNull.funcionario.cargo */
+	@NotNull(message = "{NotNull.funcionario.cargo}")
 	@ManyToOne
 	@JoinColumn(name = "cargo_id_fk")
 	private Cargo cargo;

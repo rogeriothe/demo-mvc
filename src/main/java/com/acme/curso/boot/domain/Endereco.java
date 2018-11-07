@@ -14,6 +14,14 @@ public class Endereco extends AbstractEntity<Long> {
 	@Column(nullable = false)
 	private String logradouro;
 	
+	public String getLogradouro() {
+		return logradouro;
+	}
+
+	public void setLogradouro(String logradouro) {
+		this.logradouro = logradouro;
+	}
+
 	@NotBlank
 	@Size(min = 3, max = 255)
 	@Column(nullable = false)
