@@ -71,12 +71,12 @@
 			<version>1.14.13</version>
 		</dependency>
 
-		<!-- Use MySQL Connector-J -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>7.0.0.jre8</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
-
+	
 		<dependency>
 			<groupId>nz.net.ultraq.thymeleaf</groupId>
 			<artifactId>thymeleaf-layout-dialect</artifactId>
