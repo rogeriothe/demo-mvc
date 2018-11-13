@@ -76,17 +76,7 @@
 			<artifactId>mssql-jdbc</artifactId>
 			<version>7.0.0.jre8</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
-<<<<<<< HEAD
 
-		<!-- H2 Database -->
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-		</dependency>
-
-=======
-	
->>>>>>> dev
 		<dependency>
 			<groupId>nz.net.ultraq.thymeleaf</groupId>
 			<artifactId>thymeleaf-layout-dialect</artifactId>
