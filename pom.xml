@@ -22,7 +22,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>10</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
@@ -74,8 +74,9 @@
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
-			<version>7.0.0.jre10</version><!--$NO-MVN-MAN-VER$ -->
+			<version>7.0.0.jre8</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
+<<<<<<< HEAD
 
 		<!-- H2 Database -->
 		<dependency>
@@ -83,6 +84,9 @@
 			<artifactId>h2</artifactId>
 		</dependency>
 
+=======
+	
+>>>>>>> dev
 		<dependency>
 			<groupId>nz.net.ultraq.thymeleaf</groupId>
 			<artifactId>thymeleaf-layout-dialect</artifactId>
