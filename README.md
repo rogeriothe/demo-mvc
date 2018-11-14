@@ -3,9 +3,8 @@ Spring Boot MVC - Curso básico
 
 
 
-# Login com spring mvc
-https://o7planning.org/en/11543/create-a-login-application-with-spring-boot-spring-security-spring-jdbc
-https://medium.com/@gustavo.ponce.ch/spring-boot-spring-mvc-spring-security-mysql-a5d8545d837d
+# Login com spring boot security
+https://blog.algaworks.com/spring-security/
 
 
 # Sql Server conection
